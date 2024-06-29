@@ -1,7 +1,8 @@
 # Medi-Assist
 Welcome to the Medi-Assist project! This repository contains the code for a chatbot that utilizes an LSTM (Long Short-Term Memory) neural network, a part of deep learning, for understanding and generating responses, integrated with a Flask web application for an interactive user interface.
 
-Medi-Assist aims to create a conversational AI chatbot that can understand user input and generate appropriate responses using deep learning. The chatbot is trained using an LSTM model on predefined intents, which are sets of patterns and responses. The Flask web application serves as the frontend interface where users can interact with the chatbot.
+Medi-Assist aims to create a conversational AI chatbot that can understand user input and generate appropriate responses using deep learning. The chatbot is trained using an LSTM model on predefined intents, which are sets of patterns and responses. The Flask web application serves as the frontend interface where users can interact with the chatbot. It takes symptoms as input and gives a chronic disease as output.
+(note: For better accuracy give more symptoms as input)
 
 # Features
 •	LSTM Model: Utilizes an LSTM neural network for sequence learning and text classification.
@@ -45,40 +46,22 @@ https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/25288ba6-f1aa-489
 
 # Snapshots
 
-
+1. Chatbot Training
 ![training1](https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/a45e460e-3315-4191-b503-4060d5f1809f)
-                    Chatbot Training
+                    
 
-
-
-
-
+2. Frequently asked questions
 ![FAQ](https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/66a17782-b433-471a-a0d0-65a75bfa006a)
-                    Frequently asked questions
-
-
-
-
-
+                   
+3. List of symptoms
 ![symptoms1](https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/6504dc2a-3c4e-44b9-9935-401bed31688c)
-                    List of symptoms
 
 
-
-
-
+4. Navigating throughout
 ![symptom2](https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/fadc18b8-9829-476e-8875-bc476411e5d6)
-                    Navigating throughout
-
-
-
     
-
+5. Output(predection of chronic disease)
 ![Snapshot](https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/ada44074-7f20-46a1-8597-22c2e057fdf2)
-                    Output
-
-
-
 
 
 
@@ -105,9 +88,13 @@ The model is trained on a dataset of intents defined in intents.json. Each inten
 # Training Script
 The training script (train_chatbot.py) performs the following steps:
 -> Loads and preprocesses the data.
+
 -> Defines and compiles the LSTM model.
+
 -> Trains the model on the preprocessed data.
+
 -> Saves the trained model and necessary metadata.
+
 
 # Flask Application
 The Flask application (app.py) serves as the web interface for the chatbot. It includes routes for the homepage, team information, symptoms, and FAQs. The chatbot interaction is handled through the /get_response endpoint, which processes user input and returns a response from the trained model.
