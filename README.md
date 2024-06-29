@@ -1,4 +1,4 @@
-![final1111](https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/c75668a0-99c6-405b-bca6-059024152c5a)# Medi-Assist
+# Medi-Assist
 Welcome to the Medi-Assist project! This repository contains the code for a chatbot that utilizes an LSTM (Long Short-Term Memory) neural network, a part of deep learning, for understanding and generating responses, integrated with a Flask web application for an interactive user interface.
 
 Medi-Assist aims to create a conversational AI chatbot that can understand user input and generate appropriate responses using deep learning. The chatbot is trained using an LSTM model on predefined intents, which are sets of patterns and responses. The Flask web application serves as the frontend interface where users can interact with the chatbot.
