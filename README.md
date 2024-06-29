@@ -5,18 +5,29 @@ Medi-Assist aims to create a conversational AI chatbot that can understand user 
 
 # Features
 •	LSTM Model: Utilizes an LSTM neural network for sequence learning and text classification.
+
 •	Intent-Based Responses: Responds to user inputs based on predefined intents.
+
 •	Interactive Web Interface: Flask web application for user interaction.
+
 •	Team Information Page: Details about the project contributors.
+
 •	Symptoms and FAQ Pages: Lists of symptoms and FAQs for user reference.
+
 
 # Requirements
 •	Python 3.6+
+
 •	TensorFlow 2.x
+
 •	Flask
+
 •	NLTK
+
 •	NumPy
+
 •	scikit-learn
+
 
 # Working of Chatbot
 
@@ -36,23 +47,38 @@ https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/25288ba6-f1aa-489
 
 
 ![training1](https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/a45e460e-3315-4191-b503-4060d5f1809f)
-Chatbot Training
+                    Chatbot Training
+
+
+
 
 
 ![FAQ](https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/66a17782-b433-471a-a0d0-65a75bfa006a)
-Frequently asked questions
+                    Frequently asked questions
+
+
+
 
 
 ![symptoms1](https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/6504dc2a-3c4e-44b9-9935-401bed31688c)
-List of symptoms
+                    List of symptoms
+
+
+
 
 
 ![symptom2](https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/fadc18b8-9829-476e-8875-bc476411e5d6)
-Navigating throughout
+                    Navigating throughout
 
+
+
+    
 
 ![Snapshot](https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/ada44074-7f20-46a1-8597-22c2e057fdf2)
-Output
+                    Output
+
+
+
 
 
 
