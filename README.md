@@ -78,7 +78,7 @@ https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/25288ba6-f1aa-489
     python train_chatbot.py 
 2.	Run the Flask Application:
     python app.py 
-3.	Open your browser and go to http://127.0.0.1:5000/ to interact with the chatbot.
+3.	Open your browser and go to interact with the chatbot.
 
 # Project Structure
 
